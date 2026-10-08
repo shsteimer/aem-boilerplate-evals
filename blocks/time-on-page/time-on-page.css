@@ -1,0 +1,15 @@
+.time-on-page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5em;
+}
+
+.time-on-page .time-on-page-label > p {
+  margin: 0;
+}
+
+.time-on-page .time-on-page-value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
